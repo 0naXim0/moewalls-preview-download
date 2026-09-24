@@ -23,13 +23,13 @@ Install the official browser extension from the [Tampermonkey website](https://w
 
 ### 2. Install the userscript
 
-Use the direct installation link below:
+Use the JavaScript CDN installation link below. It serves the userscript with a JavaScript content type so Tampermonkey can open its installation screen instead of displaying plain source text:
 
-**[Install MoeWalls Preview & Download](https://raw.githubusercontent.com/0naXim0/moewalls-preview-download/main/moewalls-preview-download.user.js)**
+**[Install MoeWalls Preview & Download](https://cdn.jsdelivr.net/gh/0naXim0/moewalls-preview-download@main/moewalls-preview-download.user.js)**
 
 Tampermonkey should open an installation screen. Review the requested permissions and choose **Install**.
 
-If the link opens as plain source instead:
+If the link still opens as plain source instead:
 
 1. Open the Tampermonkey extension menu.
 2. Choose **Create a new script**.
@@ -70,6 +70,10 @@ The preview opens in a focused overlay with playback controls.
 | `@connect go.moewalls.com` | Allows the existing MoeWalls download endpoint to be opened. |
 
 The script is restricted to `https://moewalls.com/*` by its userscript match rule. It does not request access to unrelated websites, does not collect analytics, and does not include an external tracking service.
+
+## Releases
+
+Stable script packages are published in the repository’s [Releases](https://github.com/0naXim0/moewalls-preview-download/releases) tab. The source userscript remains at the repository root for inspection and automatic updates.
 
 ## Troubleshooting
 

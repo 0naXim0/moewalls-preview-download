@@ -5,6 +5,8 @@
 // @version      9.2
 // @description  Download + Live Preview. Regex-based video URL extraction — immune to DOM selector failures. Zero cache collisions. Stale-request guard. Designed for reliable everyday use.
 // @license      MIT
+// @homepageURL  https://github.com/0naXim0/moewalls-preview-download
+// @supportURL   https://github.com/0naXim0/moewalls-preview-download/issues
 // @match        https://moewalls.com/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_addStyle
@@ -13,8 +15,8 @@
 // @connect      moewalls.com
 // @connect      go.moewalls.com
 // @icon         https://moewalls.com/favicon.ico
-// @downloadURL  https://raw.githubusercontent.com/0naXim0/moewalls-preview-download/main/moewalls-preview-download.user.js
-// @updateURL    https://raw.githubusercontent.com/0naXim0/moewalls-preview-download/main/moewalls-preview-download.user.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/0naXim0/moewalls-preview-download@main/moewalls-preview-download.user.js
+// @updateURL    https://cdn.jsdelivr.net/gh/0naXim0/moewalls-preview-download@main/moewalls-preview-download.user.js
 // ==/UserScript==
 
 (function () {
